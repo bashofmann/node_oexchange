@@ -2,13 +2,13 @@
     "name": "oexchange",
     "version": "0.1.0",
     "description": "Module that handles OExchange host discovery",
-    "homepage": "http://socket.io",
+    "homepage": "https://github.com/bashofmann/node_oexchange",
     "keywords": ["oexchange"],
     "author": "Bastian Hofmann <bashofmann@googlemail.com>",
     "contributors": [],
     "repository": {
         "type": "git",
-        "url": "https://github.com/LearnBoost/socket.io.git"
+        "url": "https://bashofmann@github.com/bashofmann/node_oexchange.git"
     },
     "dependencies": {
         "xml2js": ">= 0.1.11",
