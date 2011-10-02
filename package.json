@@ -1,0 +1,23 @@
+{
+    "name": "oexchange",
+    "version": "0.1.0",
+    "description": "Module that handles OExchange host discovery",
+    "homepage": "http://socket.io",
+    "keywords": ["oexchange"],
+    "author": "Bastian Hofmann <bashofmann@googlemail.com>",
+    "contributors": [],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LearnBoost/socket.io.git"
+    },
+    "dependencies": {
+        "xml2js": ">= 0.1.11",
+        "request": ">= 2.1.1"
+    },
+    "devDependencies": {
+    },
+    "main": "index",
+    "engines": {
+        "node": ">= 0.4.11"
+    }
+}
