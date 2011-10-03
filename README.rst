@@ -38,13 +38,13 @@ and "getSharingObject" wich not only returns the sharing URL but also all other 
 
 ::
 
-var sharingObject = {
+ var sharingObject = {
     'url': 'http://www.example.com/foo',
     'title': 'Example site'
-};    
-oexchange.getSharingObject('www.researchgate.net', sharingObject, function(result) {
+ };    
+ oexchange.getSharingObject('www.researchgate.net', sharingObject, function(result) {
 	 console.log(result); // either the sharing object url or "false"
 	 // to render a the result sharing object you should use a templating language, e.g. Mustache.js (see https://github.com/janl/mustache.js/)
 	 var template = '<a href="{{sharingUrl}}"><img src="{{icon32}}" /></a>';
 	 var html = Mustache.to_html(template, sharingObject);
-});
+ });
