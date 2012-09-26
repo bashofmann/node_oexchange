@@ -1,6 +1,6 @@
 {
     "name": "oexchange",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Module that handles OExchange host discovery",
     "homepage": "https://github.com/bashofmann/node_oexchange",
     "keywords": ["oexchange"],
